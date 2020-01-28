@@ -1,0 +1,12 @@
+.who-am-i {
+    display: flex;
+}
+
+.who-am-i__image {
+    width: 30%;
+    height: 30%;
+}
+
+.who-am-i__content {
+    margin-left: 40px;
+}

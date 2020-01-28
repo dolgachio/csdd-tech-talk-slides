@@ -1,0 +1,8 @@
+.text-emphasize {
+    color: #bada55;
+}
+
+.image-height-and-rotate {
+    height: 100%;
+    transform: rotate(90deg);
+}
