@@ -2,7 +2,13 @@
     color: #bada55;
 }
 
-.image-height-and-rotate {
+.image-normalize {
+    display: block;
     height: 100%;
-    transform: rotate(90deg);
+    margin: 0 auto;
+}
+
+.list-fit h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }

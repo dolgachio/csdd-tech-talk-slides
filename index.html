@@ -34,9 +34,9 @@
         <div class="who-am-i" data-name="who-am-i">
             <img class="who-am-i__image" src="./images/stas-dolgachov.jpg" alt="Speaker image">
             <ul class="who-am-i__content">
-                <li>JS, Angular, Cordova</li>
-                <li>~5 лет в разработке</li>
-                <li>~4 года врал, что пишу по TDD</li>
+                <li class="next">~6 лет в разработке</li>
+                <li class="next">JS, TS, Angular, React</li>
+                <li class="next">~4 года врал, что пишу по TDD</li>
             </ul>
         </div>
     </section>
@@ -45,9 +45,9 @@
         <h2>Почему весь код вокруг нас плохой?</h2>
         <ol>
             <li class="next"><h3>Низкая компетенция всех кроме нас самих.</h3></li>
-            <li class="next"><h3>Лень что-то исправлять.</h3></li>
+            <li class="next"><h3>Нет времени на рефакторинг/исправление.</h3></li>
             <li class="next"><h3>Заказчики виноваты.</h3></li>
-            <li class="next text-emphasize"><h3>Мы не думаем, что делаем.</h3></li>
+            <li class="next text-emphasize"><h3>Мы не думаем, что делаем. <span class="next">✅</span></h3></li>
         </ol>
     </section>
 
@@ -58,36 +58,29 @@
 
     <section class="slide" data-name="TDD">
         <h2>TDD что это вообще?</h2>
-        <ol>
-            <li class="next"><h3>Это тесты до кода.</h3></li>
-            <li class="next"><h3>БУКВАЛЬНО все знают, все пробовали, но никто не пишет :)</h3></li>
-        </ol>
+        <h3>Test Driven Development или тесты до кода.</h3>
+        <h3 class="next">БУКВАЛЬНО все знают что это, все пробовали, но никто не пишет :)</h3>       
     </section>
 
     <section class="slide" data-name="TDD hate">
         <h2>Почему никто не хочет писать по TDD?</h2>
         <ol>
-            <li class="next"><h3>Мы не видим выгоды.</h3></li>
-            <li class="next"><h3>Тесты падают когда мы что-то переделываем и только мешают.</h3></li>
-            <li class="next"><h3>Нас заставляют, а мы бунтари.</h3></li>
+            <li class="next"><h3>Тесты - это лишняя работа.</h3></li>
+            <li class="next"><h3>Тесты постоянно падают.</h3></li>
+            <li class="next"><h3>Тесты можно написать и потом.</h3></li>
         </ol>
+    </section>
+
+    <section class="slide" data-name="What if i tell you">
+        <img class="cover" src="./images/morpheus.jpg" alt="morpheus from matrix">
     </section>
 
     <section class="slide" data-name="test are not important">
         <h2 class="shout">Тесты не главное.</h2>
     </section>
-
+    
     <section class="slide" data-name="my way">
         <h2 class="shout">Правильный TDD</h2>
-    </section>
-
-    <section class="slide" data-name="Disclaimer">
-        <h2>Disclaimer</h2>
-        <ol>
-            <li class="next"><h3>Я не пишу тесты прям на все, и вам не рекомендую.</h3></li>
-            <li class="next"><h3>Мне правда нравится писать код по TDD.</h3></li>
-            <li class="next"><h3>Идеально подходит для задач средней и высокой сложности.</h3></li>
-        </ol>
     </section>
 
     <section class="slide">
@@ -102,7 +95,7 @@
     </section>
 
     <section class="slide" data-name="Navigation map">
-        <img class="image-height-and-rotate" src="./images/investigate.JPG" alt="Сбор и анализ информации">
+        <img class="image-normalize" src="./images/investigate.JPG" alt="Сбор и анализ информации">
     </section>
 
     <section class="slide" data-name="Navigation map">
@@ -131,7 +124,7 @@
     </section>
 
     <section class="slide" data-name="Navigation map">
-        <img class="image-height-and-rotate" src="./images/road-map.JPG" alt="TODO list">
+        <img class="image-normalize" src="./images/road-map.JPG" alt="TODO list">
     </section>
 
     <section class="slide" data-name="Navigation map">
@@ -167,10 +160,6 @@
         <img class="cover" src="./images/satisfying.gif" alt="satisfying">
     </section>
 
-    <section class="slide" data-name="Don't think">
-        <img class="cover" src="./images/dont-think.jpg" alt="Don't think">
-    </section>
-
     <section class="slide" data-name="Cons">
         <h2>Минусы:</h2>
         <ol>
@@ -182,12 +171,12 @@
 
     <section class="slide">
         <h2>Плюсы:</h2>
-        <ol>
-            <li class="next">Уверенность в своем коде.</li>
-            <li class="next">Ускорение работы по сравнению с проверкой в браузере.</li>
-            <li class="next">Никогда не заблокирован бэкендом.</li>
-            <li class="next">Можно выделываться перед другими.</li>
-            <li class="next">Проще оценить задачу по сложности/времени.</li>
+        <ol class="list-fit">
+            <li class="next"><h3>Уверенность в своем коде.</h3></li>
+            <li class="next"><h3>Ускорение работы по сравнению с проверкой в браузере.</h3></li>
+            <li class="next"><h3>Никогда не заблокирован бэкендом.</h3></li>
+            <li class="next"><h3>Сильно проще оценить задачу по сложности/времени.</h3></li>
+            <li class="next"><h3>Можно выделываться перед другими.</h3></li>
         </ol>
     </section>
 
@@ -204,9 +193,9 @@
     <section class="slide" data-name="Practical advices">
         <h2>Практические советы:</h2>
         <ol>
-            <li class="next"><h3>Попробуйте ТОЛЬКО Navigation map (План)</h3></li>
-            <li class="next"><h3>Напишите тест на багу.</h3></li>
-            <li class="next"><h3>Не пытайтесь себя сломать.</h3></li>
+            <li class="next"><h3>Попробуйте ТОЛЬКО Navigation map (План) 📙</h3></li>
+            <li class="next"><h3>Напишите тест на багу. 🐞</h3></li>
+            <li class="next"><h3>Не пытайтесь себя сломать. ❤️</h3></li>
         </ol>
     </section>
 
